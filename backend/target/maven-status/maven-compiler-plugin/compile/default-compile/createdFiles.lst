@@ -1,0 +1,10 @@
+com/ecommerce/model/Category$CategoryBuilder.class
+com/ecommerce/controller/CategoryController.class
+com/ecommerce/controller/AuthController.class
+com/ecommerce/model/Product$ProductBuilder.class
+com/ecommerce/model/OrderItem$OrderItemBuilder.class
+com/ecommerce/controller/ProductController.class
+com/ecommerce/model/User$UserBuilder.class
+com/ecommerce/model/Order$OrderBuilder.class
+com/ecommerce/dto/AuthResponse$AuthResponseBuilder.class
+com/ecommerce/model/CartItem$CartItemBuilder.class
