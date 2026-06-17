@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
-import { ShoppingCart, User, LogOut, Package, Shield, Search, Store } from 'lucide-react';
+import { ShoppingCart, User, LogOut, Package, Shield, Search, Store, Calculator } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useState } from 'react';
 
@@ -43,6 +43,10 @@ export default function Navbar() {
           </form>
 
           <div className="flex items-center gap-4">
+            <Link to="/emi-calculator" className="flex items-center gap-1 hover:text-emerald-400 transition-colors">
+              <Calculator className="w-5 h-5" />
+              <span className="hidden sm:inline">EMI Calculator</span>
+            </Link>
             {isAuthenticated ? (
               <>
                 <Link to="/cart" className="relative flex items-center gap-1 hover:text-emerald-400 transition-colors">
