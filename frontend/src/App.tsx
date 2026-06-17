@@ -11,6 +11,7 @@ import Register from './pages/Register';
 import Cart from './pages/Cart';
 import Orders from './pages/Orders';
 import Admin from './pages/Admin';
+import EMICalculator from './pages/EMICalculator';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
               <Route path="/cart" element={<ProtectedRoute><Cart /></ProtectedRoute>} />
               <Route path="/orders" element={<ProtectedRoute><Orders /></ProtectedRoute>} />
               <Route path="/admin" element={<ProtectedRoute adminOnly><Admin /></ProtectedRoute>} />
+              <Route path="/emi-calculator" element={<EMICalculator />} />
             </Routes>
           </main>
           <Footer />
